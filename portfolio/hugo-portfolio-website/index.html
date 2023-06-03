@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-gb"><head>
+  <meta charset="utf-8">
+  <title>Andres Imlauer</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="A portfolio website made with Hugo">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Andres Imlauer">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="portfolio">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/"> Home
+                        </a></li>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="https://imlauera.github.io">Blog</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="uk-active"><a style="font-size: 18px; text-transform:none"
+                        href="/portfolio">Portfolio</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/contact">Contact</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li><a style="font-size: 18px" href="https://imlauerandres.github.io"> Home </a></li>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="https://imlauera.github.io">Blog</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="uk-active"><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/contact">Contact</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+
+
+
+<style>
+  p {
+    margin: 0
+  }
+
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  .people-image {
+    display: block;
+    border-radius: 50%;
+     
+  }
+
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  p { margin-bottom: 1em; }
+
+  body p:last-child { margin-bottom: 0em; }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+</style>
+
+
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">Ya comenzo Hugo Portfolio Website</h1>
+    <p class="uk-text-center uk-text-lead">A portfolio website made with Hugo</p>
+    <p class="uk-text-center">Published on Jun 19, 2020</p>
+    <p class="uk-text-center">Reading time: 4 minutes.</p>
+    
+
+    <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-text-center uk-flex-center uk-grid-large uk-margin-small-top" uk-grid>
+      
+
+    
+
+
+    
+      <div>
+        
+        <div>
+          <button class="uk-button uk-button-default" type="button"> <span uk-icon="icon: github"></span> GitHub</button>
+          <div class="uk-width-auto" uk-dropdown="pos: bottom-center; delay-hide:400">
+            <div class="uk-dropdown-grid uk-child-width-1-2" uk-grid>
+              <div>
+                <ul class="uk-nav uk-dropdown-nav">
+                  
+                  <li><a style="color: #0366d6; font-weight: 600" href="https://github.com/samrobbins85/hugo-developer-portfolio"> <span><img loading="lazy" src="https://res.cloudinary.com/samrobbins/image/upload/v1593092912/repo_ec3slk.svg"></span>  hugo-developer-portfolio</a></li>
+                  
+                  <li><a style="color: #0366d6; font-weight: 600" href="https://github.com/samrobbins85/portfolio-website"> <span><img loading="lazy" src="https://res.cloudinary.com/samrobbins/image/upload/v1593092912/repo_ec3slk.svg"></span>  portfolio-website</a></li>
+                  
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    
+
+    <hr class="full-width">
+    
+    
+    <h2 class="uk-text-center uk-heading-small">Built with</h2>
+
+    <section >
+      <div class="uk-container">
+
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+             uk-grid>
+          
+          <div class="imagemargin">
+            <a href="https://gohugo.io/">
+            <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_hugo_h2xbne.svg" alt="Hugo" loading="lazy" style="cursor: pointer">
+            </a>
+          </div>
+          
+          <div class="imagemargin">
+            <a href="https://getuikit.com/">
+            <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/v1591793279/logos/logos_uikit_irc5gp.svg" alt="UIkit" loading="lazy" style="cursor: pointer">
+            </a>
+          </div>
+          
+          <div class="imagemargin">
+            <a href="https://forestry.io/">
+            <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593603175/forestry-pos-full_lid6rs.svg" alt="Forestry CMS" loading="lazy" style="cursor: pointer">
+            </a>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="full-width">
+    
+    
+
+    <div class="content">
+      <p>I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.</p>
+<p>This has been created as a theme so that others can use and adapt it.</p>
+<h2 id="sections">Sections</h2>
+<h3 id="homepage">Homepage</h3>
+<p><img src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591885280/screenshot_aexm2m.png" alt="Homepage Screenshot" title="Homepage Screenshot"></p>
+<p>The homepage provides the basic information about you, including links to social media, skills you have, things you&rsquo;ve done and your education. This page makes good use of UIKit grid and cards for organising all the information and ensuring it is responsive to work on mobile devices. The hackathon section of this page uses code from <a href="https://github.com/web-tiki/responsive-grid-of-hexagons" title="https://github.com/web-tiki/responsive-grid-of-hexagons">https://github.com/web-tiki/responsive-grid-of-hexagons</a> to ensure that the hexagons tile correctly.</p>
+<h3 id="about">About</h3>
+<p><img src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592844637/Screenshot_2020-06-22_Sam_Robbins_1_xop4uu.png" alt="About Screenshot" title="About Screenshot"></p>
+<p>This is the page for a description about you, along with non-technical skills. This uses UIKit grid and cards in a very similar way to the homepage.</p>
+<h3 id="blog">Blog</h3>
+<p><img src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593263737/Screenshot_2020-06-27_Sam_Robbins_koy2no.png" alt=""></p>
+<p>If you want to have a blog, this page will serve that purpose. I may end up changing this to a column view rather than a column view in the future, but for the present I think it looks fine.</p>
+<h3 id="portfolio">Portfolio</h3>
+<p><img src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593263791/Screenshot_2020-06-27_Sam_Robbins_1_xa3yvj.png" alt=""></p>
+<p>This allows you to describe the projects you have created in order to showcase them to people looking at your site.</p>
+<h3 id="contact">Contact</h3>
+<p><img src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593263826/Screenshot_2020-06-27_Sam_Robbins_ce7qsx.png" alt=""></p>
+<p>This provides a simple contact form which allows users of the site to send you a message. I implemented this using <a href="https://formspree.io/" title="https://formspree.io/">https://formspree.io/</a> as it has a generous free plan and is very simple to integrate.</p>
+<h2 id="installation">Installation</h2>
+<h3 id="integrating-into-your-site">Integrating into your site</h3>
+<p>To install this theme, first create a themes folder in your site with</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir themes
+</code></pre></td></tr></table>
+</div>
+</div><p>Then move into this directory with</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#5918bb;font-weight:bold">cd</span> themes
+</code></pre></td></tr></table>
+</div>
+</div><p>The repository can then be added either by cloning or adding as a submodule</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#0080ff;font-style:italic"># Cloning</span>
+git clone https://github.com/samrobbins85/hugo-developer-portfolio hugo-developer-portfolio
+<span style="color:#0080ff;font-style:italic"># Submodule</span>
+git submodule add https://github.com/samrobbins85/hugo-developer-portfolio hugo-developer-portfolio
+</code></pre></td></tr></table>
+</div>
+</div><p>In the <code>config.toml</code> file in your site directory add</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">theme=<span style="color:#0c6">&#34;hugo-developer-portfolio&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="creating-a-new-site">Creating a new site</h3>
+<p>If you just want to get set up with a new site, you can start from the Example Site I have provided. To do this:</p>
+<ol>
+<li>Cut the <code>exampleSite</code> folder out of the theme and paste it wherever you want</li>
+<li>Create a <code>theme</code> directory within the <code>exampleSite folder</code></li>
+<li>Paste the theme into this directory, ensuring is has the name <code>hugo-developer-portfolio</code></li>
+</ol>
+<h2 id="cms">CMS</h2>
+<p>For the content management system I have used Forestry CMS. This provides great flexibility for adding and editing content and integrates great with Hugo as it commits markdown files directly to GitHub.</p>
+<h2 id="configuration">Configuration</h2>
+<p>This is a highly configurable site, and as such, it will be unlikely that it will work with your existing site.</p>
+<h3 id="configtoml">Config.toml</h3>
+<p><code>Config.toml</code> provides the basic structure of the site, it contains a range of sections</p>
+<h4 id="base-information">Base information</h4>
+<p>In the example site, the base information looks as follows</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">baseURL = <span style="color:#0c6">&#34;http://example.com&#34;</span> <span style="color:#0080ff;font-style:italic"># The URL of your site</span>
+languageCode = <span style="color:#0c6">&#34;en-gb&#34;</span> <span style="color:#0080ff;font-style:italic"># The language you want to display the site in</span>
+title = <span style="color:#0c6">&#34;Sam Robbins&#34;</span> <span style="color:#0080ff;font-style:italic"># The title you want to appear in the address bar</span>
+theme = <span style="color:#0c6">&#34;hugo-developer-portfolio&#34;</span> <span style="color:#0080ff;font-style:italic"># The theme, don&#39;t change this</span>
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="plugins">Plugins</h4>
+<p>These are the essential plugins required to run the site, but you can add more if you need</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[params.plugins]
+  <span style="color:#0080ff;font-style:italic"># CSS Plugins</span>
+  [[params.plugins.css]]
+  URL = <span style="color:#0c6">&#34;https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css&#34;</span>
+  <span style="color:#0080ff;font-style:italic"># JS Plugins</span>
+  [[params.plugins.js]]
+  URL = <span style="color:#0c6">&#34;https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js&#34;</span>
+  [[params.plugins.js]]
+  URL = <span style="color:#0c6">&#34;https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="navigation">Navigation</h4>
+<p>This specifies the titles for the entries in the taskbar. <code>name</code> can be changed to show a different name. <code>URL</code> should not be changed in most situations as the pages will exist at the old URLs rather than the new ones, so this will result in dead links.</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#0080ff;font-style:italic"># navigation</span>
+[menu]
+  [[menu.main]]
+  name = <span style="color:#0c6">&#34;About&#34;</span>
+  URL = <span style="color:#0c6">&#34;about&#34;</span>
+  [[menu.main]]
+  name = <span style="color:#0c6">&#34;Blog&#34;</span>
+  URL = <span style="color:#0c6">&#34;blog&#34;</span>
+  [[menu.main]]
+  name = <span style="color:#0c6">&#34;Portfolio&#34;</span>
+  URL = <span style="color:#0c6">&#34;portfolio&#34;</span>
+  [[menu.main]]
+  name = <span style="color:#0c6">&#34;Contact&#34;</span>
+  URL = <span style="color:#0c6">&#34;contact&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="params">Params</h4>
+<p>This contains the other configuration information</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[params]
+home = <span style="color:#0c6">&#34;Home&#34;</span> <span style="color:#0080ff;font-style:italic"># What you want the homepage to show up as in the menu bar</span>
+<span style="color:#0080ff;font-style:italic"># Meta data</span>
+description = <span style="color:#0c6">&#34;The website of Sam Robbins, 2nd Year Computer Science Student at Durham University&#34;</span>
+author = <span style="color:#0c6">&#34;Sam Robbins&#34;</span>
+
+
+  [params.contact]
+  formAction = <span style="color:#0c6">&#34;https://formspree.io/&lt;Insert code&gt;&#34;</span> <span style="color:#0080ff;font-style:italic"># Add your formspree URL here to get emails</span>
+
+  <span style="color:#0080ff;font-style:italic"># This contains the contact information for the footer</span>
+  [params.footer]
+  email = <span style="color:#0c6">&#34;imlauerandres@gmail.com&#34;</span>
+  address = <span style="color:#0c6">&#34;Misiones, Argentina&#34;</span>
+  googlemaps = <span style="color:#0c6">&#34;https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&amp;key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="homepageyml">homepage.yml</h3>
+<p>This file is stored in <code>data/homepage.yml</code>. It determines the content of the homepage and contains many sections</p>
+<h4 id="banner">banner</h4>
+<p>This is the text in the hero section, change it to whatever you want</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#2c5dcd;font-weight:bold">banner</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">title</span>:<span style="color:#cbcbcb"> </span>Hi! I’m Andres<span style="color:#cbcbcb">
+</span></code></pre></td></tr></table>
+</div>
+</div><h4 id="social">social</h4>
+<p>Put all of your social links here and they will appear in the social section</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#2c5dcd;font-weight:bold">social</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">twitter</span>:<span style="color:#cbcbcb"> </span><span style="color:#0c6">&#34;&#34;</span><span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">linkedin</span>:<span style="color:#cbcbcb"> </span>sam-robbins-gb<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">github</span>:<span style="color:#cbcbcb"> </span>imlauera<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">gitlab</span>:<span style="color:#cbcbcb"> </span><span style="color:#0c6">&#34;&#34;</span><span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">facebook</span>:<span style="color:#cbcbcb"> </span><span style="color:#0c6">&#34;&#34;</span><span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">instagram</span>:<span style="color:#cbcbcb"> </span><span style="color:#0c6">&#34;&#34;</span><span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">gmail</span>:<span style="color:#cbcbcb"> </span>imlauerandres<span style="color:#cbcbcb">
+</span></code></pre></td></tr></table>
+</div>
+</div><h4 id="about-1">about</h4>
+<ul>
+<li><code>enable</code> can be used to hide this section</li>
+<li><code>content</code> determines what text is shown here</li>
+<li><code>btnText</code> changes the text on the button</li>
+<li><code>URL</code> changes the URL the button directs to</li>
+</ul>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#2c5dcd;font-weight:bold">about</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">enable</span>:<span style="color:#cbcbcb"> </span><span style="color:#2c5dcd;font-weight:bold">true</span><span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">content</span>:<span style="color:#cbcbcb"> </span>2nd Year Durham Computer Science Student<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">button</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">    </span><span style="color:#2c5dcd;font-weight:bold">btnText</span>:<span style="color:#cbcbcb"> </span>Find out more<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">    </span><span style="color:#2c5dcd;font-weight:bold">URL</span>:<span style="color:#cbcbcb"> </span><span style="color:#0c6">&#34;/about&#34;</span><span style="color:#cbcbcb">
+</span></code></pre></td></tr></table>
+</div>
+</div><h4 id="skill">skill</h4>
+<ul>
+<li><code>enable</code> can be used to hide this section</li>
+<li><code>title</code> determines the text both under the image and in the modal</li>
+<li><code>logo</code> determines the image that shows up</li>
+<li><code>description</code> is the text that appears inside the modal</li>
+</ul>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#2c5dcd;font-weight:bold">skill</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">enable</span>:<span style="color:#cbcbcb"> </span><span style="color:#2c5dcd;font-weight:bold">true</span><span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">item</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">    </span>- <span style="color:#2c5dcd;font-weight:bold">title</span>:<span style="color:#cbcbcb"> </span>JavaScript<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">      </span><span style="color:#2c5dcd;font-weight:bold">logo</span>:<span style="color:#cbcbcb"> </span>https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">      </span><span style="color:#2c5dcd;font-weight:bold">description</span>:<span style="color:#cbcbcb"> </span>Details coming soon, contact me if you want to know more<span style="color:#cbcbcb">
+</span></code></pre></td></tr></table>
+</div>
+</div><h4 id="experience">experience</h4>
+<ul>
+<li><code>enable</code> can be used to hide this section</li>
+<li><code>logo</code> determines the image that shows up</li>
+<li><code>title</code> is the main text that appears in the card</li>
+<li><code>company</code> is the secondary text in the card</li>
+<li><code>duration</code> is the tertiary text in the card</li>
+</ul>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#2c5dcd;font-weight:bold">experience</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">enable</span>:<span style="color:#cbcbcb"> </span><span style="color:#2c5dcd;font-weight:bold">true</span><span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">item</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">    </span>- <span style="color:#2c5dcd;font-weight:bold">logo</span>:<span style="color:#cbcbcb"> </span>https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">      </span><span style="color:#2c5dcd;font-weight:bold">title</span>:<span style="color:#cbcbcb"> </span>init.g<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">      </span><span style="color:#2c5dcd;font-weight:bold">company</span>:<span style="color:#cbcbcb"> </span>Google<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">      </span><span style="color:#2c5dcd;font-weight:bold">duration</span>:<span style="color:#cbcbcb"> </span>November 2019<span style="color:#cbcbcb">
+</span></code></pre></td></tr></table>
+</div>
+</div><h4 id="hackathons">hackathons</h4>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#2c5dcd;font-weight:bold">hackathons</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">enable</span>:<span style="color:#cbcbcb"> </span><span style="color:#2c5dcd;font-weight:bold">true</span><span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">  </span><span style="color:#2c5dcd;font-weight:bold">item</span>:<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">    </span>- <span style="color:#2c5dcd;font-weight:bold">title</span>:<span style="color:#cbcbcb"> </span>Hack Cambridge 2019<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">      </span><span style="color:#2c5dcd;font-weight:bold">description</span>:<span style="color:#cbcbcb"> </span>Climate change simulator<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">      </span><span style="color:#2c5dcd;font-weight:bold">image</span>:<span style="color:#cbcbcb"> </span>https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png<span style="color:#cbcbcb">
+</span><span style="color:#cbcbcb">      </span><span style="color:#2c5dcd;font-weight:bold">url</span>:<span style="color:#cbcbcb"> </span>javascript:void(0)<span style="color:#cbcbcb">
+</span></code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:imlauerandres[at]gmail.com">imlauerandres[at]gmail.com</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+          <div uk-lightbox>
+            <a href="" data-caption="Misiones, Argentina"
+               data-type="iframe">Misiones, Argentina</a>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+      2023
+      Andres Imlauer
+    </div>
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
