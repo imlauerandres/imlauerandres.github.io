@@ -34,5 +34,14 @@
       <description>University Project. TaTeTi distributed server programmed in Erlang.</description>
     </item>
     
+    <item>
+      <title>Typing Test</title>
+      <link>https://imlauerandres.github.io/portfolio/typing_test/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/portfolio/typing_test/</guid>
+      <description>The applicatiton was built with PHP/MySQL, JQuery/Ajax.</description>
+    </item>
+    
   </channel>
 </rss>

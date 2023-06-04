@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>erlang on Andres Imlauer</title>
+    <link>https://imlauerandres.github.io/categories/erlang/</link>
+    <description>Recent content in erlang on Andres Imlauer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate><atom:link href="https://imlauerandres.github.io/categories/erlang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TaTeTi Distributed Server</title>
+      <link>https://imlauerandres.github.io/portfolio/tateti_distributed_server/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/portfolio/tateti_distributed_server/</guid>
+      <description>University Project. TaTeTi distributed server programmed in Erlang.</description>
+    </item>
+    
+  </channel>
+</rss>
