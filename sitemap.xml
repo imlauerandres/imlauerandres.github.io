@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://imlauerandres.github.io/portfolio/arduino_sensor/</loc>
+    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://imlauerandres.github.io/categories/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://imlauerandres.github.io/portfolio/graph_plotter/</loc>
+    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://imlauerandres.github.io/portfolio/tateti_distributed_server/</loc>
+    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://imlauerandres.github.io/categories/web-dev/</loc>
-    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/portfolio/example-team-no-github/</loc>
-    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/portfolio/hugo-portfolio-website/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
   </url>
   

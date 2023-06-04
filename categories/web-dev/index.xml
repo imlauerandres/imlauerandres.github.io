@@ -8,23 +8,30 @@
     <language>en-gb</language>
     <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate><atom:link href="https://imlauerandres.github.io/categories/web-dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ya comenzo</title>
-      <link>https://imlauerandres.github.io/portfolio/example-team-no-github/</link>
+      <title>Arduino Temperature Sensor</title>
+      <link>https://imlauerandres.github.io/portfolio/arduino_sensor/</link>
       <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
       
-      <guid>https://imlauerandres.github.io/portfolio/example-team-no-github/</guid>
-      <description>This is some content</description>
+      <guid>https://imlauerandres.github.io/portfolio/arduino_sensor/</guid>
+      <description>Capture and logging of temperature and humidity sensors using ESP32 in C/C++. We use FireBase as the DB. We also implement reading and executing commands remotely such as turning LEDs on or off, writing to a display and sounding a buzzer from a web client programmed in ReactJS.</description>
     </item>
     
     <item>
-      <title>Ya comenzo Hugo Portfolio Website</title>
-      <link>https://imlauerandres.github.io/portfolio/hugo-portfolio-website/</link>
+      <title>Graph Plotter</title>
+      <link>https://imlauerandres.github.io/portfolio/graph_plotter/</link>
       <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
       
-      <guid>https://imlauerandres.github.io/portfolio/hugo-portfolio-website/</guid>
-      <description>I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.
-This has been created as a theme so that others can use and adapt it.
-Sections Homepage The homepage provides the basic information about you, including links to social media, skills you have, things you&amp;rsquo;ve done and your education. This page makes good use of UIKit grid and cards for organising all the information and ensuring it is responsive to work on mobile devices.</description>
+      <guid>https://imlauerandres.github.io/portfolio/graph_plotter/</guid>
+      <description>I developed a graph plotter as a final project for a Python course. This program was implemented using the Fruchterman-Reingold algorithm.</description>
+    </item>
+    
+    <item>
+      <title>TaTeTi Distributed Server</title>
+      <link>https://imlauerandres.github.io/portfolio/tateti_distributed_server/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/portfolio/tateti_distributed_server/</guid>
+      <description>University Project. TaTeTi distributed server programmed in Erlang.</description>
     </item>
     
   </channel>
