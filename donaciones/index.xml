@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donaciones on Andres Imlauer</title>
+    <link>https://imlauerandres.github.io/donaciones/</link>
+    <description>Recent content in Donaciones on Andres Imlauer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://imlauerandres.github.io/donaciones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BitCoin</title>
+      <link>https://imlauerandres.github.io/donaciones/bitcoin/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/donaciones/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ko-Fi</title>
+      <link>https://imlauerandres.github.io/donaciones/kofi/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/donaciones/kofi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MercadoPago</title>
+      <link>https://imlauerandres.github.io/donaciones/mercadopago/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/donaciones/mercadopago/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PayPal</title>
+      <link>https://imlauerandres.github.io/donaciones/paypal/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/donaciones/paypal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

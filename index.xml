@@ -17,12 +17,48 @@
     </item>
     
     <item>
+      <title>BitCoin</title>
+      <link>https://imlauerandres.github.io/donate/bitcoin/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/donate/bitcoin/</guid>
+      <description>My bitcoin address: bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3</description>
+    </item>
+    
+    <item>
       <title>Graph Plotter</title>
       <link>https://imlauerandres.github.io/portfolio/graph_plotter/</link>
       <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
       
       <guid>https://imlauerandres.github.io/portfolio/graph_plotter/</guid>
       <description>I developed a graph plotter as a final project for a Python course. This program was implemented using the Fruchterman-Reingold algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Ko-Fi</title>
+      <link>https://imlauerandres.github.io/donate/kofi/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/donate/kofi/</guid>
+      <description>https://ko-fi.com/i1andres</description>
+    </item>
+    
+    <item>
+      <title>MercadoPago</title>
+      <link>https://imlauerandres.github.io/donate/mercadopago/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/donate/mercadopago/</guid>
+      <description>https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c938084888b8a5d01888cc1071d00c5</description>
+    </item>
+    
+    <item>
+      <title>PayPal</title>
+      <link>https://imlauerandres.github.io/donate/paypal/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://imlauerandres.github.io/donate/paypal/</guid>
+      <description>https://www.paypal.com/donate/?hosted_button_id=ZKNQDQU39YZR6</description>
     </item>
     
     <item>
