@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About | Acerca de Mi on Andres Imlauer</title>
-    <link>https://imlauerandres.github.io/about/</link>
+    <link>/about/</link>
     <description>Recent content in About | Acerca de Mi on Andres Imlauer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://imlauerandres.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

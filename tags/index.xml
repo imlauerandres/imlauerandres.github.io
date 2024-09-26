@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Andres Imlauer</title>
-    <link>https://imlauerandres.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Andres Imlauer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="https://imlauerandres.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

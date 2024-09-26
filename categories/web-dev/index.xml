@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>web-dev on Andres Imlauer</title>
-    <link>https://imlauerandres.github.io/categories/web-dev/</link>
-    <description>Recent content in web-dev on Andres Imlauer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate><atom:link href="https://imlauerandres.github.io/categories/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <title>Web-Dev on Andres Imlauer</title>
+    <link>/categories/web-dev/</link>
+    <description>Recent content in Web-Dev on Andres Imlauer</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/web-dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Typing Test</title>
-      <link>https://imlauerandres.github.io/portfolio/typing_test/</link>
+      <link>/portfolio/typing_test/</link>
       <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      
-      <guid>https://imlauerandres.github.io/portfolio/typing_test/</guid>
+      <guid>/portfolio/typing_test/</guid>
       <description>The applicatiton was built with PHP/MySQL, JQuery/Ajax.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Andres Imlauer</title>
-    <link>https://imlauerandres.github.io/categories/python/</link>
-    <description>Recent content in python on Andres Imlauer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate><atom:link href="https://imlauerandres.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <title>Python on Andres Imlauer</title>
+    <link>/categories/python/</link>
+    <description>Recent content in Python on Andres Imlauer</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Graph Plotter</title>
-      <link>https://imlauerandres.github.io/portfolio/graph_plotter/</link>
+      <link>/portfolio/graph_plotter/</link>
       <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      
-      <guid>https://imlauerandres.github.io/portfolio/graph_plotter/</guid>
+      <guid>/portfolio/graph_plotter/</guid>
       <description>I developed a graph plotter as a final project for a Python course. This program was implemented using the Fruchterman-Reingold algorithm.</description>
     </item>
-    
   </channel>
 </rss>

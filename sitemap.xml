@@ -1,94 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://imlauerandres.github.io/categories/arduino/</loc>
+    <loc>/categories/arduino/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/portfolio/arduino_sensor/</loc>
+  </url><url>
+    <loc>/portfolio/arduino_sensor/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/donate/bitcoin/</loc>
+  </url><url>
+    <loc>/donate/bitcoin/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/categories/</loc>
+  </url><url>
+    <loc>/categories/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/categories/erlang/</loc>
+  </url><url>
+    <loc>/categories/erlang/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/portfolio/graph_plotter/</loc>
+  </url><url>
+    <loc>/portfolio/graph_plotter/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/donate/kofi/</loc>
+  </url><url>
+    <loc>/donate/kofi/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/donate/mercadopago/</loc>
+  </url><url>
+    <loc>/donate/mercadopago/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/donate/paypal/</loc>
+  </url><url>
+    <loc>/donate/paypal/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/categories/python/</loc>
+  </url><url>
+    <loc>/categories/python/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/portfolio/tateti_distributed_server/</loc>
+  </url><url>
+    <loc>/portfolio/tateti_distributed_server/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/portfolio/typing_test/</loc>
+  </url><url>
+    <loc>/portfolio/typing_test/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/categories/web-dev/</loc>
+  </url><url>
+    <loc>/categories/web-dev/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/about/</loc>
+  </url><url>
+    <loc>/about/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/donate/</loc>
+  </url><url>
+    <loc>/donate/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/portfolio/</loc>
+  </url><url>
+    <loc>/portfolio/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/</loc>
+  </url><url>
+    <loc>/</loc>
     <lastmod>2019-10-26T15:26:15+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
-  
-  <url>
-    <loc>https://imlauerandres.github.io/tags/</loc>
-  </url>
-  
 </urlset>

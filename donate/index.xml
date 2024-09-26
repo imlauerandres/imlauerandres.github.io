@@ -2,46 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Donate! | Donar on Andres Imlauer</title>
-    <link>https://imlauerandres.github.io/donate/</link>
+    <link>/donate/</link>
     <description>Recent content in Donate! | Donar on Andres Imlauer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://imlauerandres.github.io/donate/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate>
+    <atom:link href="/donate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BitCoin</title>
-      <link>https://imlauerandres.github.io/donate/bitcoin/</link>
+      <link>/donate/bitcoin/</link>
       <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      
-      <guid>https://imlauerandres.github.io/donate/bitcoin/</guid>
-      <description>My bitcoin address: bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3</description>
+      <guid>/donate/bitcoin/</guid>
+      <description> Mi dirección de bitcoin My bitcoin address: bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3 </description>
     </item>
-    
     <item>
       <title>KoFi</title>
-      <link>https://imlauerandres.github.io/donate/kofi/</link>
+      <link>/donate/kofi/</link>
       <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      
-      <guid>https://imlauerandres.github.io/donate/kofi/</guid>
-      <description>Mi KoFi : https://ko-fi.com/i1andres</description>
+      <guid>/donate/kofi/</guid>
+      <description>&#xA;Mi KoFi: https://ko-fi.com/i1andres </description>
     </item>
-    
     <item>
       <title>MercadoPago</title>
-      <link>https://imlauerandres.github.io/donate/mercadopago/</link>
+      <link>/donate/mercadopago/</link>
       <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      
-      <guid>https://imlauerandres.github.io/donate/mercadopago/</guid>
-      <description>Mi MercadoPago: https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c938084888b8a5d01888cc1071d00c5</description>
+      <guid>/donate/mercadopago/</guid>
+      <description>&#xA;Mi MercadoPago: https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c938084888b8a5d01888cc1071d00c5 </description>
     </item>
-    
     <item>
       <title>PayPal</title>
-      <link>https://imlauerandres.github.io/donate/paypal/</link>
+      <link>/donate/paypal/</link>
       <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      
-      <guid>https://imlauerandres.github.io/donate/paypal/</guid>
-      <description>My paypal address: https://www.paypal.com/donate/?hosted_button_id=ZKNQDQU39YZR6</description>
+      <guid>/donate/paypal/</guid>
+      <description> My paypal address https://www.paypal.com/donate/?hosted_button_id=ZKNQDQU39YZR6 </description>
     </item>
-    
   </channel>
 </rss>
